@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: Say Hello
-      run: echo "Hello World! I am running automatically!"
+      - name: Say Hello
+        run: echo "Hello World! I am running automatically!"
 
-      -name: Check the system
-      run: pwd && ls -la
+      - name: Check the system
+        run: pwd && ls -la
