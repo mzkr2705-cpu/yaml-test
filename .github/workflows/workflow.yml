@@ -7,6 +7,6 @@ jobs:
 
     steps:
       - name: Present Working
-        run: pwd
+        run: pwd && ls -la
       - name: Delete YAML
-        run: rm hello.yml
+        run: rm .github/workflows/hello.yml
