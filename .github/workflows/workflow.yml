@@ -1,0 +1,12 @@
+name: Second YAML CODE
+on: [push]
+
+jobs:
+  remove_old_yaml_file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Present Working
+        run: pwd
+      - name: Delete YAML
+        run: rm hello.yml
